@@ -1,0 +1,27 @@
+/* In style.css - add these styles at the end */
+.button-group {
+    display: flex;
+    gap: 15px; /* Adds space between buttons */
+    justify-content: center;
+}
+
+#copyButton {
+    background-color: #777; /* A different color */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#copyButton:hover {
+    background-color: #555;
+}/* In style.css */
+
+/* Style for the button when it's disabled during animation */
+#generateButton:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+}
